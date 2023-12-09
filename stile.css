@@ -1,0 +1,48 @@
+/* Set default font family and size */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Center the page content */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Style the form input fields and labels */
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Style the login button */
+form input[type="submit"][name="login"] {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Style the sign up link */
+a[href="signup.html"] {
+  color: blue;
+}
+
+/* Add some spacing between elements */
+br {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
